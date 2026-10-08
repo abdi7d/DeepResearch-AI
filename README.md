@@ -1,5 +1,9 @@
 # DeepResearch AI | Agentic AI Web Research System
 
+<p align="center">
+  <img src="src/assets/images/Agentic%20AI%20Web%20Research%20System.png" alt="Agentic AI Web Research System" width="1200" />
+</p>
+
 A production-grade, full-stack **Agentic AI Web Research System** built with dual specialized AI agents, live web browsing, real-time Server-Sent Events (SSE), and grounded citation synthesis.
 
 ---

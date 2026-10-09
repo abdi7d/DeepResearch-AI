@@ -1,7 +1,7 @@
 # DeepResearch AI | Agentic AI Web Research System
 
 <p align="center">
-  <img src="src/assets/images/Agentic%20AI%20Web%20Research%20System.png" alt="Agentic AI Web Research System" width="1200" />
+  <img src="frontend/src/assets/images/Agentic%20AI%20Web%20Research%20System.png" alt="Agentic AI Web Research System" width="1200" />
 </p>
 
 A production-grade, full-stack **Agentic AI Web Research System** built with dual specialized AI agents, live web browsing, real-time Server-Sent Events (SSE), and grounded citation synthesis.
@@ -73,12 +73,21 @@ Real-Time SSE Streaming to Frontend
 ## 4. Development & Running
 
 ### Environment Setup
-Create a `.env` file based on `.env.example`:
+Create a `.env` file in the `backend/` directory based on `backend/.env.example`:
 ```bash
 GEMINI_API_KEY="your-gemini-api-key"
 PORT=3000
 MONGODB_URI="mongodb://localhost:27017/deepresearch" # optional
 JWT_SECRET="your-jwt-secret"
+MAX_RESEARCH_TOOL_CALLS=8
+MAX_SEARCH_CALLS=5
+MAX_PAGE_CALLS=6
+MAX_RESEARCH_TIME_MS=60000
+```
+
+### Install Dependencies
+```bash
+npm run install:all
 ```
 
 ### Start Development Server
